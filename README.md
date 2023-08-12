@@ -14,7 +14,7 @@ The platform makes use of two smart contracts on Polygon chain (the plan is to e
 publishing smart contract (UB – UncensoredBulletin) and the access control (ETC – Editor Token Control) smart
 contract which is, in fact, an ERC1155 NFT smart contract.
 
-## UncensoredBulletin Smart Contract
+## UncensoredBulletin Smart Contract (deployed to [0xb7Be7465D0202E07f7D5d1F9281069497bFCaBd5](https://polygonscan.com/address/0xb7be7465d0202e07f7d5d1f9281069497bfcabd5))
 The UB smart contract is used to publish textual items to blockchain and serve them to the general public or just
 to subscribers based on the item type (this is discussed further in this document).
 
@@ -22,7 +22,7 @@ As it is not practical to store large texts on blockchain, the publisher may pos
 contains the actual item. Since the idea behind UB is provision of global access, it is highly recommended to publish
 longer texts to IPFS and put a link to them in the content of the post.
 
-## ETC - The Editor Token Control Smart Contract
+## ETC - The Editor Token Control Smart Contract (deployed to [0x36230bc334Bf202045C2AbDaE60D7028B407AF0E](https://polygonscan.com/address/0x36230bc334bf202045c2abdae60d7028b407af0e))
 The ETC smart contract is a \[almost\] regular ERC1155 smart contract used for UB access administration. When
 created, the one and only “Manager” token is minted (it is not possible to mint additional manager tokens).
 
